@@ -1,0 +1,42 @@
+name: disastermanagementsystem
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.11.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # ফায়ারবেস কোর এবং অ্যাপ চেক (Play Integrity এর জন্য বাধ্যতামূলক)
+  firebase_core: ^3.15.2
+  firebase_app_check: ^0.3.2+10
+
+  # অথেন্টিকেশন এবং ডাটাবেস (একে অপরের সাথে সামঞ্জস্যপূর্ণ ভার্সন)
+  firebase_auth: ^5.5.0
+  cloud_firestore: ^5.6.0
+
+  # লোকেশন এবং ম্যাপ সার্ভিস
+  geolocator: ^13.0.1
+  permission_handler: ^11.3.1
+  flutter_map: ^6.1.0
+  latlong2: ^0.9.1
+
+  # অন্যান্য ইউটিলিটি
+  http: ^1.6.0
+  flutter_tts: ^3.8.5
+  flutter_local_notifications: ^17.0.0
+  shared_preferences: ^2.2.0
+  cupertino_icons: ^1.0.8
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
